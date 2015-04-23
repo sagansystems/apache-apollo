@@ -1,6 +1,6 @@
 .PHONY: build run
 
-IMAGE=sagan/edge-broker
+IMAGE=sagan/apache-apollo
 
 build:
 	docker build -t $(IMAGE) .
